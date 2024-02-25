@@ -1,0 +1,53 @@
+body{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(185, 207, 218);
+}
+.calculator{
+
+    box-sizing: border-box;
+    
+  
+}
+input{
+   padding-right: 150px;
+   padding-top: 20px;
+   background-color:rgb(144, 162, 171);
+   
+   
+   border: none;
+}
+
+h1,
+h4,
+input,
+
+li
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color: #FFD23F;
+    font-family: sans-serif;
+}
